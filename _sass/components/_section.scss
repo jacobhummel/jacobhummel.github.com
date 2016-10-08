@@ -1,0 +1,8 @@
+.section {
+  padding: 100px 0;
+
+  &.section--inverse {
+    background: $grey-color-dark;
+    color: $text-color-inverse;
+  }
+}
