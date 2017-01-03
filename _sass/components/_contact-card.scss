@@ -1,0 +1,28 @@
+.contact-card {
+  text-align: center;
+
+  .contact-card--img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: $spacing-unit;
+  }
+
+  .contact-card--name {
+    font-size: 3rem;
+  }
+
+  .contact-card--title {
+    font-size: 2rem;
+  }
+
+  .contact-card--social a {
+    font-size: 3rem;
+    margin: 5px;
+    color: $text-color-inverse;
+
+    @include hover-state {
+      opacity: 0.8;
+    }
+  }
+}
