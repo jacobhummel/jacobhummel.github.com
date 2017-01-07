@@ -4,8 +4,9 @@
   .contact-card--img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10px;
     margin: $spacing-unit;
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.2);
   }
 
   .contact-card--name {

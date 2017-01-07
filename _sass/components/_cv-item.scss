@@ -1,5 +1,5 @@
 .cv-item {
-  padding: 0 60px 60px;
+  padding: 0 60px 50px;
   margin-left: 30px;
   border-left: 2px solid #fff;
 
@@ -15,7 +15,7 @@
       height: 14px;
       border: 3px solid #fff;
       border-radius: 50%;
-      background: $color-primary-light;
+      background: $color-primary;
       transition: all 0.3s;
       top: 4px;
       left: -68px;
@@ -25,7 +25,7 @@
 
   .cv-item--dates {
     font-size: 1.6rem;
-    font-family: monospace;
+    font-family: $header-font-family;
   }
 
   .cv-item-description {
