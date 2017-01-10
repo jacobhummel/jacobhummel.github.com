@@ -1,0 +1,11 @@
+<a class="project-card" href="{{ include.project.website }}" target="_blank">
+  <div class="project-card--img" style="background-image:url({{ include.project.image }})"></div>
+  <h3 class="project-card--title">{{ include.project.name }}</h3>
+  <p class="project-card--description">{{ include.project.description }}</p>
+
+  <div class="project-card--stack">
+    {% for technology in include.project.technologies %}
+      <span class="project-card--item">{{ technology }}</span>
+    {% endfor %}
+  </div>
+</a>

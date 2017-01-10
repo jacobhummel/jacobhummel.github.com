@@ -1,0 +1,45 @@
+- name: Boogie
+  image: http://placehold.it/300/300
+  website: https://boogie.io
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
+    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
+    a urna scelerisque posuere. Donec quis venenatis urna.
+  technologies:
+    - Android
+    - React Native
+
+- name: CrewBuddy
+  image: http://placehold.it/300/300
+  website: https://boogie.io
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  technologies:
+    - Android
+
+- name: VLG Website
+  image: http://placehold.it/300/300
+  website: https://boogie.io
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
+    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
+    a urna scelerisque posuere. Donec quis venenatis urna.
+  technologies:
+    - Jekyll
+    - JavaScript
+    - HTML5
+    - CSS3
+
+- name: Farm Insight
+  image: http://placehold.it/300/300
+  website: https://boogie.io
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
+    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
+    a urna scelerisque posuere. Donec quis venenatis urna.
+  technologies:
+    - Android

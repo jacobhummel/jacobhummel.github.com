@@ -47,32 +47,31 @@ layout: default
 
     <h2><i class="zmdi zmdi-graduation-cap"></i>Education</h2>
 
-    {% include components/cv-item.html
-        title="Iowa State University"
-        dates="2010 - 2014"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna."
-       %}
+    {% for institution in site.data.education %}
+
+      {% assign dates = institution.start_date | append: " - " | append: institution.end_date %}
+
+      {% include components/cv-item.html
+          title=institution.name
+          dates=dates
+          description=institution.my_experience
+         %}
+
+    {% endfor %}
 
     <h2><i class="zmdi zmdi-case"></i>Employment</h2>
 
-    {% include components/cv-item.html
-        title="Visual Logic"
-        dates="May 2014 - Present"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna."
-       %}
+    {% for employer in site.data.employment %}
 
-    {% include components/cv-item.html
-        title="Thompson Reuters"
-        dates="Summer 2013"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna."
-       %}
+      {% assign dates = employer.start_date | append: " - " | append: employer.end_date %}
 
-    {% include components/cv-item.html
-        title="Emerson Process Management"
-        dates="Summer 2012"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna."
-       %}
+      {% include components/cv-item.html
+          title=employer.name
+          dates=dates
+          description=employer.my_experience
+         %}
 
+    {% endfor %}
 
   </div>
 </div>
@@ -83,37 +82,29 @@ layout: default
 {% capture content %}
 <div class="row">
   <div class="col-md-12">
-    <h1>Projects</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante,
-      in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante,
-      in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
+    <h1>Recent Projects</h1>
+
+
+    {% for project in site.data.projects %}
+
+      {% include components/project-card.html
+          project=project
+         %}
+
+    {% endfor %}
+
   </div>
 </div>
 {% endcapture %}
 
-{% include components/section.html name="projects" %}
+{% include components/section.html name="projects" color="grey" %}
 
 {% capture content %}
 <div class="row">
   <div class="col-md-12">
-    <h1>Contact</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante,
-      in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante,
-      in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
+    <h1>Contact Me</h1>
+
+    {% include components/contact-form.html %}
   </div>
 </div>
 {% endcapture %}
