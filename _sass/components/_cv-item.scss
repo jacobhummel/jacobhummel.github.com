@@ -1,8 +1,12 @@
 .cv-item {
-  padding: 0 60px 60px;
-  margin-left: 30px;
+  padding: 0 30px 60px;
+  margin-left: 15px;
   border-left: 2px solid #fff;
 
+  @include media-query($on-laptop) {
+    padding: 0 60px 60px;
+    margin-left: 30px;
+  }
 
   .cv-item--title {
     font-size: 2rem;
@@ -19,8 +23,12 @@
       background: $color-primary;
       transition: all 0.3s;
       top: 4px;
-      left: -68px;
+      left: -38px;
       z-index: 2;
+
+      @include media-query($on-laptop) {
+        left: -68px;
+      }
     }
   }
 

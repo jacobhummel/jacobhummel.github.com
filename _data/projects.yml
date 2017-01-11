@@ -8,20 +8,23 @@
     a urna scelerisque posuere. Donec quis venenatis urna.
   technologies:
     - Android
+    - Java
     - React Native
+    - iOS
 
 - name: CrewBuddy
   image: http://placehold.it/300/300
-  website: https://boogie.io
+  website:
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - Android
+    - Java
 
 - name: VLG Website
   image: http://placehold.it/300/300
-  website: https://boogie.io
+  website: 
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
@@ -33,9 +36,22 @@
     - HTML5
     - CSS3
 
+- name: BeeLine Axyz
+  image: http://placehold.it/300/300
+  website: http://beeline-co.com
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
+    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
+    a urna scelerisque posuere. Donec quis venenatis urna.
+  technologies:
+    - AngularJS
+    - Node.js
+    - Mongodb
+
 - name: Farm Insight
   image: http://placehold.it/300/300
-  website: https://boogie.io
+  website: http://farm-insight.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
@@ -43,3 +59,4 @@
     a urna scelerisque posuere. Donec quis venenatis urna.
   technologies:
     - Android
+    - Java
