@@ -1,0 +1,15 @@
+.btn.btn-primary {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 8px 25px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-family: $header-font-family;
+
+  &:hover {
+    background-color: #fff;
+    color: $text-color;
+  }
+
+}

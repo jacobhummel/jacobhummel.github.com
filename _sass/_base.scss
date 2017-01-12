@@ -81,7 +81,7 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
   font-family: $header-font-family;
   font-weight: $base-font-weight;
   text-transform: uppercase;
@@ -175,4 +175,9 @@ pre {
   path {
     fill: $grey-color;
   }
+}
+
+.help-block {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }

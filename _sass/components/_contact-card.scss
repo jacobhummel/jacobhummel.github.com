@@ -19,13 +19,15 @@
     margin: 0 0 10px;
   }
 
-  .contact-card--social a {
-    font-size: 3rem;
-    margin: 5px;
-    color: $text-color-inverse;
 
-    @include hover-state {
-      opacity: 0.8;
-    }
+}
+
+.contact-card--social a {
+  font-size: 3rem;
+  margin: 5px;
+  color: $text-color-inverse;
+
+  @include hover-state {
+    opacity: 0.8;
   }
 }
