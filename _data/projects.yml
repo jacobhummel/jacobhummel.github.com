@@ -1,5 +1,5 @@
 - name: Boogie
-  image: http://placehold.it/300/300
+  image: https://unsplash.it/350/350
   website: https://boogie.io
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
@@ -13,7 +13,7 @@
     - iOS
 
 - name: CrewBuddy
-  image: http://placehold.it/300/300
+  image: https://unsplash.it/351/350
   website:
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
@@ -23,8 +23,8 @@
     - Java
 
 - name: VLG Website
-  image: http://placehold.it/300/300
-  website: 
+  image: https://unsplash.it/350/351
+  website:
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
@@ -37,7 +37,7 @@
     - CSS3
 
 - name: BeeLine Axyz
-  image: http://placehold.it/300/300
+  image: https://unsplash.it/351/351
   website: http://beeline-co.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
@@ -50,7 +50,7 @@
     - Mongodb
 
 - name: Farm Insight
-  image: http://placehold.it/300/300
+  image: https://unsplash.it/352/350
   website: http://farm-insight.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
