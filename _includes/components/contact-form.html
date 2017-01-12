@@ -1,4 +1,5 @@
-<form class="form-horizontal"  action="https://formspree.io/j4cobhummel@gmail.com" method="POST">
+{% assign author = site.data.people['jacob'] %}
+<form class="form-horizontal"  action="https://formspree.io/{{ author.email }}" method="POST">
   <fieldset class="row">
 
     <div class="col-md-12">
