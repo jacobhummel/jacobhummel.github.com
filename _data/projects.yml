@@ -3,9 +3,7 @@
   website: https://boogie.io
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - Android
     - Java
@@ -27,9 +25,7 @@
   website:
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - Jekyll
     - JavaScript
@@ -41,9 +37,7 @@
   website: http://beeline-co.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - AngularJS
     - Node.js
@@ -54,9 +48,7 @@
   website: http://farm-insight.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - Android
     - Java
