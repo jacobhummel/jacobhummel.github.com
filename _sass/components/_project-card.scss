@@ -1,7 +1,7 @@
 .project-card {
   display: block;
   width: 100%;
-  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 10px 10px rgba(155, 155, 155, 0.1);
   margin: 0 0 30px;
   border-radius: 6px;
   background: #fefefe;
@@ -14,9 +14,9 @@
   @include media-query($on-laptop) {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 15px);
+    width: calc(50% - 25px);
     float: left;
-    margin: 0 15px 40px;
+    margin: 0 25px 60px;
     height: 500px;
 
     &:nth-of-type(even) {
