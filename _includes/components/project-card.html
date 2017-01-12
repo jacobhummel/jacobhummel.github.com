@@ -1,7 +1,7 @@
 <article class="project-card" href="{{ include.project.website }}" target="_blank">
   <div class="project-card--img" style="background-image:url({{ include.project.image }})"></div>
 
-  <div class="project-card--header clearfix">
+  <div class="project-card--header">
 
     <h3 class="project-card--title">{{ include.project.name }}</h3>
     <a class="project-card--link" href="{{ include.project.website }}" target="_blank">{{ include.project.website | remove: "http://" | remove: "https://" }}</a>
