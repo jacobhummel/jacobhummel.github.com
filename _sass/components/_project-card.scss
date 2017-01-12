@@ -1,7 +1,7 @@
 .project-card {
   display: block;
   width: 100%;
-  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
   margin: 0 0 30px;
   border-radius: 6px;
   background: #fefefe;
@@ -14,9 +14,9 @@
   @include media-query($on-laptop) {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 10px);
+    width: calc(50% - 15px);
     float: left;
-    margin: 0 10px 30px;
+    margin: 0 15px 40px;
     height: 575px;
 
     &:nth-of-type(even) {
@@ -57,9 +57,9 @@
   }
 
   .project-card--description {
-    color: $text-color;
+    color: $grey-color;
     padding: 10px 15px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
     @include media-query($on-laptop) {
       flex: 1;
