@@ -1,0 +1,60 @@
+- name: Expert
+  technologies:
+    - name: JavaScript
+      icon: javascript-plain colored
+    - name: HTML5
+      icon: html5-plain colored
+    - name: CSS3
+      icon: css3-plain colored
+    - name: Android
+      icon: android-plain colored
+    - name: Java
+      icon: java-plain colored
+    - name: Less
+      icon: less-plain-wordmark colored
+    - name: Sass
+      icon: sass-original colored
+    - name: jQuery
+      icon: jquery-plain colored
+    - name: Bootstrap
+      icon: bootstrap-plain colored
+    - name: Jekyll
+      photo: jekyll.png
+    - name: Git
+      icon: git-plain colored
+    - name: Gulp
+      icon: gulp-plain colored
+    - name: Grunt
+      icon: grunt-line colored
+    - name: Bower
+      icon: bower-line colored
+
+- name: Advanced
+  technologies:
+    - name: React Native
+      icon: react-original colored
+    - name: AngularJS
+      icon: angularjs-plain colored
+    - name: MySQL
+      icon: mysql-plain colored
+    - name: PHP
+      icon: php-plain colored
+
+- name: Some Experience
+  technologies:
+    - name: iOS
+      icon: apple-original colored
+    - name: C#
+      icon: csharp-plain colored
+    - name: .NET
+      icon: dot-net-plain colored
+    - name: MongoDB
+      icon: mongodb-plain colored
+    - name: Node.js
+      icon: nodejs-plain colored
+    - name: Wordpress
+      icon: wordpress-plain colored
+    - name: C
+      icon: c-plain colored
+    - name: C++
+      icon: cplusplus-plain colored

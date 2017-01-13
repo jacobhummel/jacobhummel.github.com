@@ -1,12 +1,21 @@
 .contact-card {
-  text-align: center;
+  background: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  color: $text-color;
 
   .contact-card--img {
+    display: inline-block;
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    margin: $spacing-unit;
+    margin-right: 30px;
     box-shadow: 1px 5px 5px rgba(0,0,0,0.2);
+  }
+
+  .contact-card--description {
+    display: inline-block;
+    width: calc(100% - 230px;)
   }
 
   .contact-card--name {
@@ -25,7 +34,7 @@
 .contact-card--social a {
   font-size: 3rem;
   margin: 5px;
-  color: $text-color-inverse;
+  color: $text-color;
 
   @include hover-state {
     opacity: 0.8;

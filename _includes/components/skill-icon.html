@@ -1,0 +1,8 @@
+<div class="skill-icon">
+  {% if include.icon %}
+   <i class="devicon-{{ include.icon }}"></i>
+  {% elsif include.photo %}
+    <img src="/assets/img/skills/{{ include.photo }}" />
+  {% endif %}
+  <p>{{ include.name }}</p>
+</div>

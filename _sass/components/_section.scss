@@ -7,8 +7,24 @@
   }
 }
 
+.section--intro {
+  background-image: url(https://unsplash.it/1920/1080);
+  background-size: cover;
+  background-position: center;
+}
+
 .section--projects {
   .container {
     max-width: 900px;
+  }
+}
+
+.section--skills {
+  p {
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    margin: 45px 0 20px;
   }
 }
