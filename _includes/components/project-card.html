@@ -14,6 +14,7 @@
     {% for technology in include.project.technologies %}
 
       {% include components/skill-icon.html
+          name=technology.name
           icon=technology.icon
           photo=technology.photo
          %}
