@@ -4,7 +4,7 @@
   <div class="project-card--header">
 
     <h3 class="project-card--title">{{ include.project.name }}</h3>
-    <a class="project-card--link" href="{{ include.project.website }}" target="_blank">{{ include.project.website | remove: "http://" | remove: "https://" }}</a>
+    <a class="project-card--link" href="{{ include.project.website }}" target="_blank">View Website</a>
 
   </div>
 
@@ -12,7 +12,13 @@
 
   <div class="project-card--stack">
     {% for technology in include.project.technologies %}
-      <span class="project-card--item">{{ technology }}</span>
-    {% endfor %}
+
+      {% include components/skill-icon.html
+          name=technology.name
+          icon=technology.icon
+          photo=technology.photo
+         %}
+
+   {% endfor %}
   </div>
 </article>

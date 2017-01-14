@@ -5,32 +5,50 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
-    - Android
-    - Java
-    - React Native
-    - iOS
+    - name: Android
+      icon: android-plain colored
+    - name: React Native
+      icon: react-original colored
+    - name: Java
+      icon: java-plain colored
+    - name: Jekyll
+      photo: jekyll.png
 
 - name: CrewBuddy
   image: https://unsplash.it/351/350
-  website:
+  website: https://itunes.apple.com/us/app/crew-buddy/id685014186?mt=8
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
-    - Android
-    - Java
+    - name: Android
+      icon: android-plain colored
+    - name: Java
+      icon: java-plain colored
 
 - name: VLG Website
   image: https://unsplash.it/350/351
-  website:
+  website: 
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
-    - Jekyll
-    - JavaScript
-    - HTML5
-    - CSS3
+    - name: Jekyll
+      photo: jekyll.png
+    - name: HTML5
+      icon: html5-plain colored
+    - name: CSS3
+      icon: css3-plain colored
+    - name: Sass
+      icon: sass-original colored
+    - name: JavaScript
+      icon: javascript-plain colored
+    - name: jQuery
+      icon: jquery-plain colored
+    - name: Bootstrap
+      icon: bootstrap-plain colored
+    - name: Gulp
+      icon: gulp-plain colored
 
 - name: BeeLine Axyz
   image: https://unsplash.it/351/351
@@ -39,9 +57,20 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
-    - AngularJS
-    - Node.js
-    - Mongodb
+    - name: AngularJS
+      icon: angularjs-plain colored
+    - name: JavaScript
+      icon: javascript-plain colored
+    - name: HTML5
+      icon: html5-plain colored
+    - name: Sass
+      icon: sass-original colored
+    - name: CSS3
+      icon: css3-plain colored
+    - name: MongoDB
+      icon: mongodb-plain colored
+    - name: Node.js
+      icon: nodejs-plain colored
 
 - name: Farm Insight
   image: https://unsplash.it/352/350
@@ -50,5 +79,7 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
-    - Android
-    - Java
+    - name: Android
+      icon: android-plain colored
+    - name: Java
+      icon: java-plain colored

@@ -65,20 +65,25 @@
   }
 
   .project-card--stack {
-    padding: 0 15px 10px;
+    padding: 5px 10px;
 
-    h5 {
-      text-transform: none;
+    .skill-icon {
+      padding: 5px;
+
+      i {
+        font-size: 3rem;
+      }
+
+      img {
+        max-height: 35px;
+      }
+
+      p {
+        margin: 1px 0 0;
+        font-size: 1rem;
+      }
     }
 
-    .project-card--item {
-      display: inline-block;
-      color: #555;
-      font-size: 1.4rem;
-      padding: 4px 8px;
-      border-radius: 3px;
-      margin-bottom: 5px;
-      background: #ddd;
-    }
+
   }
 }
