@@ -2,7 +2,7 @@
   background-color: $color-primary-dark;
   color: $text-color-inverse;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color-inverse;
   }
 }
@@ -11,7 +11,7 @@
   background-color: $color-primary;
   color: $text-color-inverse;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color-inverse;
   }
 }
@@ -20,7 +20,7 @@
   background-color: $color-primary-light;
   color: $text-color-inverse;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color-inverse;
   }
 }
@@ -29,7 +29,7 @@
   background-color: $color-accent-dark;
   color: $text-color-inverse;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color-inverse;
   }
 }
@@ -38,7 +38,7 @@
   background-color: $color-accent-light;
   color: $text-color-inverse;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color-inverse;
   }
 }
@@ -47,7 +47,7 @@
   background-color: $grey-color-light;
   color: $text-color;
 
-  label {
+  label, .contact-card--social a {
     color: $text-color;
   }
 }
