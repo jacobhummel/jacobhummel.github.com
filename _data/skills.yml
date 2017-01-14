@@ -6,8 +6,6 @@
       icon: html5-plain colored
     - name: CSS3
       icon: css3-plain colored
-    - name: Android
-      icon: android-plain colored
     - name: Java
       icon: java-plain colored
     - name: Less
@@ -31,6 +29,8 @@
 
 - name: Advanced
   technologies:
+    - name: Android
+      icon: android-plain colored
     - name: React Native
       icon: react-original colored
     - name: AngularJS
@@ -54,7 +54,3 @@
       icon: nodejs-plain colored
     - name: Wordpress
       icon: wordpress-plain colored
-    - name: C
-      icon: c-plain colored
-    - name: C++
-      icon: cplusplus-plain colored
