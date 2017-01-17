@@ -7,16 +7,5 @@
     <h4 class="cv-item--title">{{ include.item.title }}</h4>
     <p class="cv-item-description">{{ include.item.description }}</p>
 
-    <div class="cv-item--stack">
-      {% for technology in include.item.technologies %}
-
-        {% include components/skill-icon.html
-            name=technology.name
-            icon=technology.icon
-            photo=technology.photo
-           %}
-
-     {% endfor %}
-    </div>
   </div>
 </div>
