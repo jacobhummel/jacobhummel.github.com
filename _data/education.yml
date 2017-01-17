@@ -1,9 +1,7 @@
 - name: Iowa State University
-  start_date: 2010
-  end_date: Present
-  website: https://vlgux.com
-  my_experience: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+  date: Fall 2010 - Spring 2014
+  image: /assets/img/cv/iastate.jpg
+  title: Software Engineering
+  website:
+  description: >
+    I develop prototypes and apps designed by user experience designers.

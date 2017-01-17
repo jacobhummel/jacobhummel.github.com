@@ -12,9 +12,10 @@
 }
 
 .section--intro {
-  background-image: url(https://unsplash.it/1920/1080);
+  background-image: url(/assets/img/outdoors.jpg);
   background-size: cover;
   background-position: center;
+  box-shadow: inset 1px 0 10px rgba(77,77,77,0.4);
 }
 
 .section--projects {
@@ -23,12 +24,8 @@
   }
 }
 
-.section--skills {
-  p {
-    padding-bottom: 20px;
-  }
-
+.section--experience {
   h2 {
-    margin: 45px 0 20px;
+    margin: 80px 0 40px;
   }
 }

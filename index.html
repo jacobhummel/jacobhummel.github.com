@@ -15,81 +15,57 @@ layout: default
   %}
 
 {% capture content %}
-<div class="row">
-  <div class="col-md-12">
-    <h1>Skills</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien
-      volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-      a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Experience</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
 
-    {% for skill_level in site.data.skills %}
+      <h2><i class="zmdi zmdi-code"></i>Skills</h2>
 
-      <h2>{{ skill_level.name }}</h2>
+      {% for skill_level in site.data.skills %}
 
-      {% for technology in skill_level.technologies %}
+        <h3>{{ skill_level.name }}</h3>
 
-        {% include components/skill-icon.html
-            name=technology.name
-            icon=technology.icon
-            photo=technology.photo
+        {% for technology in skill_level.technologies %}
+
+          {% include components/skill-icon.html
+              name=technology.name
+              icon=technology.icon
+              photo=technology.photo
+             %}
+
+       {% endfor %}
+
+      {% endfor %}
+
+      <h2><i class="zmdi zmdi-case"></i>Employment</h2>
+
+      {% for item in site.data.employment %}
+
+        {% include components/cv-item.html
+            item=item
            %}
 
-     {% endfor %}
+      {% endfor %}
 
-    {% endfor %}
+      <h2><i class="zmdi zmdi-graduation-cap"></i>Education</h2>
+
+      {% for item in site.data.education %}
+
+        {% include components/cv-item.html
+            item=item
+           %}
+
+      {% endfor %}
+
+    </div>
   </div>
-</div>
 {% endcapture %}
 
-{% include components/section.html name="skills" %}
-
-{% capture content %}
-<div class="row">
-  <div class="col-md-12">
-    <h1>Experience</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Mauris bibendum suscipit quam, ac facilisis sapien volutpat et. Sed eu mattis ante,
-      in aliquet est. Donec feugiat ante a urna scelerisque posuere. Donec quis venenatis urna.
-    </p>
-
-    <h2><i class="zmdi zmdi-case"></i>Employment</h2>
-
-    {% for employer in site.data.employment %}
-
-      {% assign dates = employer.start_date | append: " - " | append: employer.end_date %}
-
-      {% include components/cv-item.html
-          title=employer.name
-          dates=dates
-          description=employer.my_experience
-         %}
-
-    {% endfor %}
-
-    <h2><i class="zmdi zmdi-graduation-cap"></i>Education</h2>
-
-    {% for institution in site.data.education %}
-
-      {% assign dates = institution.start_date | append: " - " | append: institution.end_date %}
-
-      {% include components/cv-item.html
-          title=institution.name
-          dates=dates
-          description=institution.my_experience
-         %}
-
-    {% endfor %}
-
-  </div>
-</div>
-{% endcapture %}
-
-{% include components/section.html name="experience" color="primary"  %}
+{% include components/section.html name="experience"  %}
 
 {% capture content %}
 <div class="row">
@@ -121,4 +97,4 @@ layout: default
 </div>
 {% endcapture %}
 
-{% include components/section.html name="contact" color="primary-dark" %}
+{% include components/section.html name="contact" %}

@@ -1,29 +1,92 @@
-- name: Visual Logic
-  start_date: 2010
-  end_date: Present
-  website: https://vlgux.com
-  my_experience: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+- name: Visual Logic Group
+  date: May 2014 - Present
+  image: /assets/img/cv/vlg.png
+  title: Frontend Developer
+  website:
+  description: >
+    I develop prototypes and apps designed by user experience designers.
+  technologies:
+    - name: JavaScript
+      icon: javascript-plain
+    - name: HTML5
+      icon: html5-plain
+    - name: CSS3
+      icon: css3-plain
+    - name: Java
+      icon: java-plain
+    - name: Less
+      icon: less-plain-wordmark
+    - name: Sass
+      icon: sass-original
+    - name: jQuery
+      icon: jquery-plain
+    - name: Bootstrap
+      icon: bootstrap-plain
+    - name: Jekyll
+      photo: jekyll-grey.png
+    - name: Git
+      icon: git-plain
+    - name: Gulp
+      icon: gulp-plain
+    - name: Grunt
+      icon: grunt-line
+    - name: Bower
+      icon: bower-line
+    - name: Android
+      icon: android-plain
+    - name: AngularJS
+      icon: angularjs-plain
+    - name: MySQL
+      icon: mysql-plain
+    - name: PHP
+      icon: php-plain
+    - name: MongoDB
+      icon: mongodb-plain
+    - name: Node.js
+      icon: nodejs-plain
+    - name: Wordpress
+      icon: wordpress-plain
 
 - name: Thompson Reuters
-  start_date: 2010
-  end_date: Present
-  website: https://vlgux.com
-  my_experience: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+  date: Summer 2013
+  image: /assets/img/cv/thompson-reuters.jpg
+  title: Technology Intern
+  website:
+  description: >
+      Worked on a team that is responsible for making court docket data available for use with various Thomson Reuters legal products.
+      I develop a web application that is used by internal users to publish and process the docket data.
+  technologies:
+    - name: Java
+      icon: java-plain
+    - name: JavaScript
+      icon: javascript-plain
+    - name: HTML5
+      icon: html5-plain
+    - name: CSS3
+      icon: css3-plain
+    - name: jQuery
+      icon: jquery-plain
+    - name: MySQL
+      icon: mysql-plain
 
-- name: Emerson Process Management
-  start_date: 2010
-  end_date: Present
-  website: https://vlgux.com
-  my_experience: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum suscipit quam,
-    ac facilisis sapien volutpat et. Sed eu mattis ante, in aliquet est. Donec feugiat ante
-    a urna scelerisque posuere. Donec quis venenatis urna.
+
+- name: Emerson Automation
+  date: Summer 2012
+  image: /assets/img/cv/emerson.jpg
+  title: Web Development Intern
+  website:
+  description: >
+    Rewrote two business critical internal web applications using the ASP.NET Framework
+    - Reduced application run time up to 90% by:
+    - Worked with business unit to realize more scalable data processing calculations
+    - Optimized and restructured SQL queries, implementing faster data validation methods
+    - Improved program design in order to support long term application enhancements and scaling
+  technologies:
+    - name: C#
+      icon: csharp-plain
+    - name: .NET
+      icon: dot-net-plain
+    - name: HTML5
+      icon: html5-plain
+    - name: MySQL
+      icon: mysql-plain

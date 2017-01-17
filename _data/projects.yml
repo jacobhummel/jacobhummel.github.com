@@ -1,85 +1,108 @@
 - name: Boogie
-  image: https://unsplash.it/350/350
+  image: /assets/img/projects/boogie.jpg
   website: https://boogie.io
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - name: Android
-      icon: android-plain colored
+      icon: android-plain
     - name: React Native
-      icon: react-original colored
+      icon: react-original
     - name: Java
-      icon: java-plain colored
+      icon: java-plain
     - name: Jekyll
-      photo: jekyll.png
+      photo: jekyll-grey.png
 
 - name: CrewBuddy
-  image: https://unsplash.it/351/350
+  image: /assets/img/projects/crewbuddy.jpg
   website: https://itunes.apple.com/us/app/crew-buddy/id685014186?mt=8
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - name: Android
-      icon: android-plain colored
+      icon: android-plain
     - name: Java
-      icon: java-plain colored
+      icon: java-plain
 
 - name: VLG Website
-  image: https://unsplash.it/350/351
-  website: 
+  image: /assets/img/projects/visual-logic.jpg
+  website:
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - name: Jekyll
-      photo: jekyll.png
+      photo: jekyll-grey.png
     - name: HTML5
-      icon: html5-plain colored
+      icon: html5-plain
     - name: CSS3
-      icon: css3-plain colored
+      icon: css3-plain
     - name: Sass
-      icon: sass-original colored
+      icon: sass-original
     - name: JavaScript
-      icon: javascript-plain colored
+      icon: javascript-plain
     - name: jQuery
-      icon: jquery-plain colored
+      icon: jquery-plain
     - name: Bootstrap
-      icon: bootstrap-plain colored
+      icon: bootstrap-plain
     - name: Gulp
-      icon: gulp-plain colored
+      icon: gulp-plain
 
 - name: BeeLine Axyz
-  image: https://unsplash.it/351/351
+  image: /assets/img/projects/beeline.jpg
   website: http://beeline-co.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - name: AngularJS
-      icon: angularjs-plain colored
+      icon: angularjs-plain
     - name: JavaScript
-      icon: javascript-plain colored
+      icon: javascript-plain
     - name: HTML5
-      icon: html5-plain colored
+      icon: html5-plain
     - name: Sass
-      icon: sass-original colored
+      icon: sass-original
     - name: CSS3
-      icon: css3-plain colored
+      icon: css3-plain
     - name: MongoDB
-      icon: mongodb-plain colored
+      icon: mongodb-plain
     - name: Node.js
-      icon: nodejs-plain colored
+      icon: nodejs-plain
 
 - name: Farm Insight
-  image: https://unsplash.it/352/350
+  image: /assets/img/projects/farm-insight.jpg
   website: http://farm-insight.com
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   technologies:
     - name: Android
-      icon: android-plain colored
+      icon: android-plain
     - name: Java
-      icon: java-plain colored
+      icon: java-plain
+
+
+- name: Jacob Hummel
+  image: /assets/img/outdoors.jpg
+  website: http://jacobhummel.com
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  technologies:
+    - name: Jekyll
+      photo: jekyll-grey.png
+    - name: HTML5
+      icon: html5-plain
+    - name: CSS3
+      icon: css3-plain
+    - name: Sass
+      icon: sass-original
+    - name: JavaScript
+      icon: javascript-plain
+    - name: jQuery
+      icon: jquery-plain
+    - name: Bootstrap
+      icon: bootstrap-plain

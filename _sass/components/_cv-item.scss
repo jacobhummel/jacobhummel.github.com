@@ -1,44 +1,66 @@
 .cv-item {
-  padding: 0 30px 60px;
-  margin-left: 15px;
+  padding: 20px 0;
   border-left: 2px solid #fff;
 
   @include media-query($on-laptop) {
-    padding: 0 60px 60px;
-    margin-left: 30px;
+    padding: 20px 0;
   }
 
-  .cv-item--title {
-    font-size: 2rem;
-    position: relative;
-    margin-bottom: 5px;
+  .cv-item--image {
+      display: inline-block;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin: 0 20px 20px 0;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      box-shadow: 0 30px 30px rgba(155, 155, 155, 0.15);
+  }
 
-    &::after {
-      content: "";
-      position: absolute;
-      width: 14px;
-      height: 14px;
-      border: 3px solid #fff;
-      border-radius: 50%;
-      background: $color-primary;
-      transition: all 0.3s;
-      top: 4px;
-      left: -38px;
-      z-index: 2;
+  .cv-item--description {
+    display: inline-block;
 
-      @include media-query($on-laptop) {
-        left: -68px;
-      }
+    @include media-query($on-palm) {
+      width: calc(100% - 240px);
     }
   }
 
-  .cv-item--dates {
-    font-size: 1.8rem;
-    opacity: 0.9;
-    font-family: $header-font-family;
+  .cv-item--name {
+    color: $text-color;
+    margin-bottom: 8px;
   }
 
-  .cv-item-description {
+  .cv-item--dates {
+    color: $text-color;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .cv-item--title {
+    color: $text-color;
+    font-weight: bold;
+  }
+
+  .cv-item--stack {
+    padding: 5px 0;
+
+    .skill-icon {
+      padding: 5px;
+
+      i {
+        font-size: 2.5rem;
+        color: $grey-color;
+      }
+
+      img {
+        max-height: 30px;
+      }
+
+      p {
+        display: none;
+      }
+    }
+
 
   }
 
