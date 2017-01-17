@@ -41,9 +41,12 @@
 }
 
 .contact-card--social a {
-  font-size: 2.5rem;
   margin: 5px;
   color: lighten($text-color, 10%);
+
+  i {
+    font-size: 2.5rem;
+  }
 
   @include hover-state {
     opacity: 0.8;

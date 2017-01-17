@@ -2,8 +2,9 @@
   image: /assets/img/projects/boogie.jpg
   website: https://boogie.io
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Boogie is an app that allows you to record and log skydives using an Android device.
+    Developed by <a href="https://www.linkedin.com/in/joel-bixby-23a74a60">Joel Bixby</a>,
+    <a href="https://www.linkedin.com/in/jasondodgethompson">Jason Thompson</a>, and I.
   technologies:
     - name: Android
       icon: android-plain
@@ -14,24 +15,11 @@
     - name: Jekyll
       photo: jekyll-grey.png
 
-- name: CrewBuddy
-  image: /assets/img/projects/crewbuddy.jpg
-  website: https://itunes.apple.com/us/app/crew-buddy/id685014186?mt=8
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  technologies:
-    - name: Android
-      icon: android-plain
-    - name: Java
-      icon: java-plain
-
 - name: VLG Website
   image: /assets/img/projects/visual-logic.jpg
-  website:
+  website: https://vlgux.com
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Visual Logic Group's company website and blog. Built with Jekyll.
   technologies:
     - name: Jekyll
       photo: jekyll-grey.png
@@ -54,8 +42,9 @@
   image: /assets/img/projects/beeline.jpg
   website: http://beeline-co.com
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Axyz is an AngularJS app built for BeeLine when Visual Logic designed the UX for their
+    semi-trailer truck frame correction software. The prototype was handed off to their development
+    team as the base for the production application.
   technologies:
     - name: AngularJS
       icon: angularjs-plain
@@ -72,12 +61,25 @@
     - name: Node.js
       icon: nodejs-plain
 
+- name: CrewBuddy
+  image: /assets/img/projects/crewbuddy.jpg
+  website: https://itunes.apple.com/us/app/crew-buddy/id685014186?mt=8
+  description: >
+    Crewbuddy is an app that allows Southwest Airlines crew
+    to see their flight schedules, check live flight information, and much more.
+    I am currently helping develop the Android version of the app at Visual Logic.
+  technologies:
+    - name: Android
+      icon: android-plain
+    - name: Java
+      icon: java-plain
+
 - name: Farm Insight
   image: /assets/img/projects/farm-insight.jpg
   website: http://farm-insight.com
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Farm Insight is an Android app that uses the MyJohnDeere API to display
+    equipment and fields from a map or augmented reality view.
   technologies:
     - name: Android
       icon: android-plain
@@ -86,11 +88,11 @@
 
 
 - name: Jacob Hummel
-  image: /assets/img/outdoors.jpg
+  image: /assets/img/projects/jacob-hummel.jpg
   website: http://jacobhummel.com
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae lacinia orci.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    This site was built using Jekyll and hosted courtesy of GitHub Pages.
+    <a href="https://github.com/jacobhummel/jacobhummel.github.com">See the code</a>
   technologies:
     - name: Jekyll
       photo: jekyll-grey.png

@@ -2,7 +2,9 @@
   <img class="cv-item--image" src="{{ include.item.image }}" />
 
   <div class="cv-item--description">
-    <h4 class="cv-item--name">{{ include.item.name }}</h4>
+    <a href="{{ include.item.website }}" target="_blank">
+      <h4 class="cv-item--name">{{ include.item.name }}</h4>
+    </a>
     <p class="cv-item--dates">{{ include.item.date }}</p>
     <h4 class="cv-item--title">{{ include.item.title }}</h4>
     <p class="cv-item-description">{{ include.item.description }}</p>

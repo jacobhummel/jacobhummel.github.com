@@ -43,8 +43,7 @@
   }
 
   .project-card--title {
-    color: $text-color;
-    margin: 0 0 4px;
+    margin: 5px 0;
     font-weight: bold;
   }
 
@@ -55,7 +54,6 @@
   .project-card--description {
     color: $grey-color-dark;
     padding: 10px 15px;
-    font-size: 1.4rem;
 
     @include media-query($on-laptop) {
       flex: 1;

@@ -1,10 +1,15 @@
 - name: Visual Logic Group
   date: May 2014 - Present
   image: /assets/img/cv/vlg.png
-  title: Frontend Developer
-  website:
+  title: UX Developer
+  website: https://vlgux.com
   description: >
-    I develop prototypes and apps designed by user experience designers.
+    <ul>
+      <li>Web and mobile app development</li>
+      <li>User experience and interaction design synthesis</li>
+      <li>Frequent collaboration with designers</li>
+      <li>Professional interaction with clients</li>
+    </ul>
   technologies:
     - name: JavaScript
       icon: javascript-plain
@@ -51,10 +56,12 @@
   date: Summer 2013
   image: /assets/img/cv/thompson-reuters.jpg
   title: Technology Intern
-  website:
+  website: http://thomsonreuters.com/en.html
   description: >
-      Worked on a team that is responsible for making court docket data available for use with various Thomson Reuters legal products.
-      I develop a web application that is used by internal users to publish and process the docket data.
+    <ul>
+      <li>Full Stack web developer using Spring MVC framework</li>
+      <li>Features and improvements to existing application</li>
+    </ul>
   technologies:
     - name: Java
       icon: java-plain
@@ -74,13 +81,12 @@
   date: Summer 2012
   image: /assets/img/cv/emerson.jpg
   title: Web Development Intern
-  website:
+  website: http://www.emerson.com/en-us/automation-solutions
   description: >
-    Rewrote two business critical internal web applications using the ASP.NET Framework
-    - Reduced application run time up to 90% by:
-    - Worked with business unit to realize more scalable data processing calculations
-    - Optimized and restructured SQL queries, implementing faster data validation methods
-    - Improved program design in order to support long term application enhancements and scaling
+    <ul>
+      <li>Full Stack web developer using ASP.NET Web Forms</li>
+      <li>Completely rewrote 2 critical apps for speed and usability</li>
+    </ul>
   technologies:
     - name: C#
       icon: csharp-plain
