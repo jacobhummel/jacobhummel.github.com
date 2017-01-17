@@ -21,7 +21,7 @@
     display: inline-block;
 
     @include media-query($on-palm) {
-      width: calc(100% - 240px);
+      width: calc(100% - 80px);
     }
   }
 
