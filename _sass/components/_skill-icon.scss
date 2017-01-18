@@ -1,14 +1,16 @@
 .skill-icon {
   display: inline-block;
   text-align: center;
-  padding: 10px 25px 10px 5px;
+  padding: 10px 5px;
+  min-width: 88px;
 
   i {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   img {
     vertical-align: text-bottom;
+    max-height: 40px;
   }
 
   p {

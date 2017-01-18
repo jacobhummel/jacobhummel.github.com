@@ -3,8 +3,8 @@
   website: https://boogie.io
   description: >
     Boogie is an app that allows you to record and log skydives using an Android device.
-    Developed by <a href="https://www.linkedin.com/in/joel-bixby-23a74a60">Joel Bixby</a>,
-    <a href="https://www.linkedin.com/in/jasondodgethompson">Jason Thompson</a>, and I.
+    We are currently developing the app for iOS and Android using React Native. This is a project I work on in my free time with <a href="https://www.linkedin.com/in/joel-bixby-23a74a60">Joel Bixby</a> and 
+    <a href="https://www.linkedin.com/in/jasondodgethompson">Jason Thompson</a>.
   technologies:
     - name: Android
       icon: android-plain

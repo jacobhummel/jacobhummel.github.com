@@ -1,13 +1,18 @@
 {% assign author = site.data.people['jacob'] %}
 <form class="form-horizontal"  action="https://formspree.io/{{ author.email }}" method="POST">
   <fieldset class="row">
-
+<!--
     <div class="col-md-12">
       <div class="contact-card--social">
         <a href="mailto:{{ author.email }}"><i class="zmdi zmdi-email"></i></a>
         <a href="https://twitter.com/{{ author.twitter }}"><i class="zmdi zmdi-twitter"></i></a>
         <a href="https://linkedin.com/in/{{ author.linkedin }}"><i class="zmdi zmdi-linkedin"></i></a>
       </div>
+    </div> -->
+
+
+    <div class="col-md-12">
+      <h5 class="text-center">Don't be shy. I'd love to hear from you!</h5>
     </div>
 
     <input type="text" name="_gotcha" style="display:none" />
@@ -29,7 +34,7 @@
     <!-- Message body -->
     <div class="col-md-12">
       <label class="help-block" for="message">Message</label>
-      <textarea required class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+      <textarea required class="form-control" id="message" name="message" placeholder="The quick brown fox jumped over the lazy dog..." rows="5"></textarea>
     </div>
 
     <!-- Form actions -->

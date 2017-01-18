@@ -18,14 +18,18 @@
   box-shadow: inset 1px 0 10px rgba(77,77,77,0.4);
 }
 
-.section--projects {
+.section--experience {
   .container {
-    max-width: 900px;
+    max-width: 600px;
+  }
+
+  h2 {
+    margin: 80px 0 40px;
   }
 }
 
-.section--experience {
-  h2 {
-    margin: 80px 0 40px;
+.section--projects {
+  .container {
+    max-width: 900px;
   }
 }

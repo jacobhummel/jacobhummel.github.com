@@ -18,29 +18,6 @@ layout: default
   <div class="row">
     <div class="col-md-12">
       <h1>Experience</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Etiam vitae lacinia orci. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit.
-      </p>
-
-      <h2><i class="zmdi zmdi-code"></i>Skills</h2>
-
-      {% for skill_level in site.data.skills %}
-
-        <h3>{{ skill_level.name }}</h3>
-
-        {% for technology in skill_level.technologies %}
-
-          {% include components/skill-icon.html
-              name=technology.name
-              icon=technology.icon
-              photo=technology.photo
-             %}
-
-       {% endfor %}
-
-      {% endfor %}
 
       <h2><i class="zmdi zmdi-case"></i>Employment</h2>
 
@@ -59,6 +36,25 @@ layout: default
         {% include components/cv-item.html
             item=item
            %}
+
+      {% endfor %}
+
+
+      <h2><i class="zmdi zmdi-laptop-mac"></i>Skills</h2>
+
+      {% for skill_level in site.data.skills %}
+
+        <h3>{{ skill_level.name }}</h3>
+
+        {% for technology in skill_level.technologies %}
+
+          {% include components/skill-icon.html
+              name=technology.name
+              icon=technology.icon
+              photo=technology.photo
+             %}
+
+       {% endfor %}
 
       {% endfor %}
 
@@ -91,7 +87,7 @@ layout: default
 {% capture content %}
 <div class="row">
   <div class="col-md-12">
-    <h1>Contact Me</h1>
+    <h1>Contact</h1>
 
     {% include components/contact-form.html %}
   </div>
