@@ -22,8 +22,6 @@
       icon: git-plain colored
     - name: Gulp
       icon: gulp-plain colored
-    - name: Grunt
-      icon: grunt-line colored
     - name: Bower
       icon: bower-line colored
 
@@ -39,6 +37,8 @@
       icon: mysql-plain colored
     - name: PHP
       icon: php-plain colored
+    - name: Grunt
+      icon: grunt-line colored
 
 - name: Some Experience
   technologies:
