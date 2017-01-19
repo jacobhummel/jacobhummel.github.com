@@ -5,6 +5,15 @@
   color: $text-color;
   box-shadow: 0 30px 30px rgba(155, 155, 155, 0.15);
 
+  .contact-card--header {
+
+    @include media-query($on-palm) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   .contact-card--img {
     display: inline-block;
     float: left;
@@ -40,6 +49,12 @@
     margin: 15px 0;
   }
 
+  .contact-card--bio {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: lighten($text-color, 20%);
+  }
+
 }
 
 .contact-card--social a {
@@ -47,7 +62,7 @@
   color: lighten($text-color, 10%);
 
   i {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   @include hover-state {
