@@ -12,12 +12,10 @@
 
 
     <div class="col-md-12 text-center">
-      <h5>Don't be shy. I'd love to hear from you!</h5>
-      <div class="contact-card--social">
-          <a href="mailto:{{ author.email }}" target="_blank"><i class="zmdi zmdi-email"></i></a>
-          <a href="https://twitter.com/{{ author.twitter }}" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
-          <a href="https://linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
-      </div>
+      <h5>
+        Don't be shy. I'd love to hear from you!
+        <!-- <a target="_blank" href="/assets/jacobhummel_resume.pdf">Download my resume.</a> -->
+      </h5>
     </div>
 
     <input type="text" name="_gotcha" style="display:none" />
@@ -44,7 +42,14 @@
 
     <!-- Form actions -->
     <div class="col-md-12">
-      <div class="text-right">
+      <div class="pull-left">
+        <div class="contact-card--social" style="margin: 25px 0;">
+            <a href="mailto:{{ author.email }}" target="_blank"><i class="zmdi zmdi-email"></i></a>
+            <a href="https://twitter.com/{{ author.twitter }}" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+            <a href="https://linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="pull-right">
         <input id="sendEmail" type="submit" class="btn btn-primary btn-lg" value="Send Message" />
       </div>
     </div>

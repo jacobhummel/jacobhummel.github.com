@@ -1,15 +1,14 @@
 - name: Visual Logic Group
-  date: May 2014 - Present
+  date: Jan 2014 - Present
   image: /assets/img/cv/vlg.png
   title: UX Developer
   website: https://vlgux.com
   description: >
-    <ul>
-      <li>Web and mobile app development</li>
-      <li>User experience and interaction design synthesis</li>
-      <li>Frequent collaboration with designers</li>
-      <li>Professional interaction with clients</li>
-    </ul>
+    Develop web and mobile apps in collaboration with
+    UX Designers and clients. Apps vary from prototype
+    to production level. Responsible for all aspects of development
+    including frontend, backend, database, and server. Communicate
+    development constraints to shape product designs.
   technologies:
     - name: JavaScript
       icon: javascript-plain
@@ -58,10 +57,8 @@
   title: Technology Intern
   website: http://thomsonreuters.com/en.html
   description: >
-    <ul>
-      <li>Full Stack web developer using Spring MVC framework</li>
-      <li>Features and improvements to existing application</li>
-    </ul>
+    Full-Stack web developer using the Spring MVC Framework.
+    Added features and improvements to an internal business application.
   technologies:
     - name: Java
       icon: java-plain
@@ -83,10 +80,8 @@
   title: Web Development Intern
   website: http://www.emerson.com/en-us/automation-solutions
   description: >
-    <ul>
-      <li>Full Stack web developer using ASP.NET Web Forms</li>
-      <li>Completely rewrote 2 critical apps for speed and usability</li>
-    </ul>
+    Full-Stack web developer using ASP.NET Web Forms.
+    Rewrote two business critical apps for speed and usability.
   technologies:
     - name: C#
       icon: csharp-plain
