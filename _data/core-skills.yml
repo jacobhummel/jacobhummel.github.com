@@ -5,7 +5,7 @@
   zmdi: android
 
 - name: Full Stack Web
-  zmdi: devices
+  zmdi: layers
 
 - name: User Experience
   zmdi: mood
