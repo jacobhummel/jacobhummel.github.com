@@ -36,8 +36,12 @@
 
     .skill-icon {
       padding: 8px;
-      min-width: 160px;
       margin: 10px 1px;
+      min-width: 140px;
+
+      @include media-query($on-palm) {
+        min-width: 160px;
+      }
 
       i {
         font-size: 4rem;

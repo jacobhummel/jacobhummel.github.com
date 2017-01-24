@@ -2,7 +2,11 @@
   display: inline-block;
   text-align: center;
   margin: 10px 4px;
-  min-width: 100px;
+  min-width: 85px;
+
+  @include media-query($on-palm) {
+    min-width: 100px;
+  }
 
   i {
     font-size: 4rem;
