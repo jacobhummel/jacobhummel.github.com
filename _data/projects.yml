@@ -91,7 +91,7 @@
   image: /assets/img/projects/jacob-hummel.jpg
   website: http://jacobhummel.com
   description: >
-    This site was built using Jekyll and hosted courtesy of GitHub Pages.
+    I designed and built this website using Jekyll. Hosting courtesy of GitHub Pages.
     <a href="https://github.com/jacobhummel/jacobhummel.github.com">See the code</a>
   technologies:
     - name: Jekyll
