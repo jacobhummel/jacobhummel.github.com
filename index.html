@@ -17,28 +17,21 @@ layout: default
 {% capture content %}
   <div class="row">
     <div class="col-md-12">
-      <h1>Experience</h1>
+      <h1>Skills</h1>
 
-      <h2><i class="zmdi zmdi-case"></i>Employment</h2>
+      <h2><i class="zmdi zmdi-globe-alt"></i>Core Skills</h2>
 
-      {% for item in site.data.employment %}
+      <div class="core-skills">
+        {% for skill in site.data.core-skills %}
 
-        {% include components/cv-item.html
-            item=item
-           %}
+          {% include components/skill-icon.html
+              name=skill.name
+              zmdi=skill.zmdi
+              icon=skill.icon
+             %}
 
-      {% endfor %}
-
-      <h2><i class="zmdi zmdi-graduation-cap"></i>Education</h2>
-
-      {% for item in site.data.education %}
-
-        {% include components/cv-item.html
-            item=item
-           %}
-
-      {% endfor %}
-
+        {% endfor %}
+      </div>
 
       <h2><i class="zmdi zmdi-laptop-mac"></i>Technologies</h2>
 
@@ -62,7 +55,39 @@ layout: default
   </div>
 {% endcapture %}
 
-{% include components/section.html name="experience"  %}
+{% include components/section.html name="skills" %}
+
+{% capture content %}
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Experience</h1>
+
+      <h2><i class="zmdi zmdi-case"></i>Employment</h2>
+
+      {% for item in site.data.employment %}
+
+        {% include components/cv-item.html
+            item=item
+           %}
+
+      {% endfor %}
+
+      <h2><i class="zmdi zmdi-graduation-cap"></i>Education</h2>
+
+      {% for item in site.data.education %}
+
+        {% include components/cv-item.html
+            item=item
+           %}
+
+      {% endfor %}
+
+    </div>
+  </div>
+{% endcapture %}
+
+{% include components/section.html name="experience" color="grey"  %}
+
 
 {% capture content %}
 <div class="row">
@@ -82,7 +107,7 @@ layout: default
 </div>
 {% endcapture %}
 
-{% include components/section.html name="projects" color="grey" %}
+{% include components/section.html name="projects" %}
 
 {% capture content %}
 <div class="row">
@@ -94,4 +119,4 @@ layout: default
 </div>
 {% endcapture %}
 
-{% include components/section.html name="contact" %}
+{% include components/section.html name="contact" color="grey" %}

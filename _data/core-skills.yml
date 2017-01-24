@@ -1,0 +1,23 @@
+- name: Frontend Web
+  zmdi: view-web
+
+- name: Android Development
+  zmdi: android
+
+- name: Full Stack Web
+  zmdi: devices
+
+- name: User Experience
+  zmdi: mood
+
+- name: Software Testing
+  zmdi: assignment-check
+
+- name: Agile Development
+  icon: trello-plain
+
+- name: Project Management
+  zmdi: format-list-numbered
+
+- name: Communication
+  zmdi: accounts

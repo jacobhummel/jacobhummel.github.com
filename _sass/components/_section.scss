@@ -28,6 +28,23 @@
   }
 }
 
+.section--skills {
+
+  .core-skills {
+    margin: 60px 0 100px;
+
+    .skill-icon {
+      padding: 8px;
+      min-width: 160px;
+      margin: 10px 1px;
+
+      i {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
 .section--projects {
   .container {
     max-width: 900px;

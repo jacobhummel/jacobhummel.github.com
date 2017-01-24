@@ -2,12 +2,12 @@
   technologies:
     - name: JavaScript
       icon: javascript-plain colored
+    - name: Java
+      icon: java-plain colored
     - name: HTML5
       icon: html5-plain colored
     - name: CSS3
       icon: css3-plain colored
-    - name: Java
-      icon: java-plain colored
     - name: Less
       icon: less-plain-wordmark colored
     - name: Sass
@@ -22,30 +22,28 @@
       icon: git-plain colored
     - name: Gulp
       icon: gulp-plain colored
-    - name: Bower
-      icon: bower-line colored
+    - name: Grunt
+      icon: grunt-line colored
 
 - name: Advanced
   technologies:
     - name: Android
       icon: android-plain colored
-    - name: React Native
-      icon: react-original colored
     - name: AngularJS
       icon: angularjs-plain colored
     - name: MySQL
       icon: mysql-plain colored
     - name: PHP
       icon: php-plain colored
-    - name: Grunt
-      icon: grunt-line colored
+    - name: C#
+      icon: csharp-plain colored
 
 - name: Some Experience
   technologies:
     - name: iOS
       icon: apple-original colored
-    - name: C#
-      icon: csharp-plain colored
+    - name: React Native
+      icon: react-original colored
     - name: .NET
       icon: dot-net-plain colored
     - name: MongoDB
