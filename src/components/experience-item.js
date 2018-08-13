@@ -48,9 +48,7 @@ const styles = StyleSheet.create({
 
 const ExperienceItem = ({ experience }) => {
   return (
-    <div
-      className={css(styles.item)}
-    >
+    <div className={css(styles.item)}>
       <img
         src={experience.icon}
         className={css(styles.icon)}
@@ -58,10 +56,7 @@ const ExperienceItem = ({ experience }) => {
       />
       <div className={css(styles.info)}>
         <div className={css(styles.role)}>
-          <SmartLink
-            href={experience.link}
-            className={css(styles.name)}
-          >
+          <SmartLink href={experience.link} className={css(styles.name)}>
             {experience.name}
           </SmartLink>
           <div className={css(styles.duration)}>{experience.duration}</div>

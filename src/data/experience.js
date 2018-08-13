@@ -13,7 +13,8 @@ export const work = [
     duration: 'Mar 2017 - Present',
     icon: IconTarget,
     link: 'https://www.target.com',
-    description: 'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+    description:
+      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
   },
   {
     name: 'Boogie',
@@ -21,7 +22,8 @@ export const work = [
     duration: 'Aug 2014 - Present',
     icon: IconBoogie,
     link: 'https://boogie.io',
-    description: 'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+    description:
+      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
   },
   {
     name: 'Visual Logic',
@@ -29,7 +31,8 @@ export const work = [
     duration: 'Jan 2014 - Mar 2017',
     icon: IconVlg,
     link: 'https://vlgux.com',
-    description: 'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+    description:
+      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
   },
   {
     name: 'Thomson Reuters',
@@ -37,7 +40,8 @@ export const work = [
     duration: 'Summer 2013',
     icon: IconThomson,
     link: 'https://www.thomsonreuters.com/en.html',
-    description: 'Full-Stack web developer using the Spring MVC Framework. Added features and improvements to an internal business application.'
+    description:
+      'Full-Stack web developer using the Spring MVC Framework. Added features and improvements to an internal business application.'
   },
   {
     name: 'Emerson Fisher',
@@ -45,7 +49,8 @@ export const work = [
     duration: 'Summer 2012',
     icon: IconEmerson,
     link: 'http://www.emerson.com/en-us/automation/fisher',
-    description: 'Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.'
+    description:
+      'Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.'
   }
 ]
 
@@ -56,6 +61,7 @@ export const education = [
     duration: 'Aug 2010 - May 2014',
     icon: IconIastate,
     link: 'https://iastate.edu/',
-    description: 'Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.'
+    description:
+      'Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.'
   }
 ]
