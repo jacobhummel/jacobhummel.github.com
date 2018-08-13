@@ -1,5 +1,5 @@
 {
-  "name": "jacobhummel",
+  "name": "jacobhummel-v2",
   "description": "My personal website",
   "version": "1.0.0",
   "author": "Jacob Hummel <jacob@jacobhummel.com>",
@@ -26,10 +26,9 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' && standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
     "prettier": "^1.14.2",
     "standard": "^11.0.1"
   },
