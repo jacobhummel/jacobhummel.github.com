@@ -43,6 +43,11 @@ const styles = StyleSheet.create({
   contactLink: {
     fontSize: 20,
     marginRight: 30
+  },
+  footer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 })
 
@@ -101,6 +106,15 @@ const IndexPage = () => (
       <ExperienceList title='Work' experiences={work} />
       <ExperienceList title='Education' experiences={education} />
     </Section>
+    <div className={css(styles.footer)}>
+      <SmartLink
+        href='https://github.com/jacobhummel/jacobhummel.github.com'
+        alt='GitHub repo'
+      >
+        Built with ☕ and GatsbyJS
+      </SmartLink>
+      <SmartLink href='/'>Back to top</SmartLink>
+    </div>
   </Layout>
 )
 

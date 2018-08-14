@@ -18,12 +18,12 @@ export const work = [
   },
   {
     name: 'Boogie',
-    title: 'Front-End Engineer (Mobile)',
+    title: 'Front-End Engineer (React Native)',
     duration: 'Aug 2014 - Present',
     icon: IconBoogie,
     link: 'https://boogie.io',
     description:
-      "Boogie is a side project I started with two friends in 2014. It's a mobile app for skydivers to log their skydives. The first version was a native Android app. It's now a cross platform React Native app for iOS and Android that's used by thousands of skydivers around the world."
+      "Boogie is a side project I started with two friends in 2014. It's a mobile app built for skydivers to log skydives. The first version was a native Android app. It's now a cross platform React Native app for iOS and Android that's used by thousands of skydivers around the world."
   },
   {
     name: 'Visual Logic',
