@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 const ExperienceList = ({ title, experiences }) => {
   return (
     <div>
-      <h4>{title}</h4>
+      <h3>{title}</h3>
       <div className={css(styles.list)}>
         {experiences.map(experience => (
           <ExperienceItem key={experience.name} experience={experience} />

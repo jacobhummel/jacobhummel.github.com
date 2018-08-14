@@ -10,19 +10,26 @@ import globals from '../utils/globals'
 import headshot from '../images/jacob-hummel.jpg'
 import SkillList from '../components/skill-list'
 import ExperienceList from '../components/experience-list'
-import Resume from '../images/jacobhummel-resume.pdf'
 
 import { languages, technologies, workflow } from '../data/skills'
 import { work, education } from '../data/experience'
 
 const styles = StyleSheet.create({
   targetLink: {
-    color: globals.color.target,
-    textDecorationColor: globals.color.target
+    color: globals.color.text,
+    textDecoration: 'underline',
+    textDecorationColor: globals.color.target,
+    ':hover': {
+      color: globals.color.target
+    }
   },
   boogieLink: {
-    color: globals.color.boogie,
-    textDecorationColor: globals.color.boogie
+    color: globals.color.text,
+    textDecoration: 'underline',
+    textDecorationColor: globals.color.boogie,
+    ':hover': {
+      color: globals.color.boogie
+    }
   },
   twoCol: {
     display: 'grid',
@@ -35,7 +42,6 @@ const styles = StyleSheet.create({
   },
   contactLink: {
     fontSize: 20,
-    color: globals.color.text,
     marginRight: 30
   }
 })
@@ -48,7 +54,7 @@ const IndexPage = () => (
         <SmartLink
           href='https://www.target.com/'
           alt='Target website'
-          className={css(styles.targetLink)}
+          className={styles.targetLink}
         >
           Target
         </SmartLink>{' '}
@@ -56,7 +62,7 @@ const IndexPage = () => (
         <SmartLink
           href='https://boogie.io'
           alt='Boogie website'
-          className={css(styles.boogieLink)}
+          className={styles.boogieLink}
         >
           Boogie
         </SmartLink>
@@ -67,23 +73,16 @@ const IndexPage = () => (
           href='mailto:jacob@jacobhummel.com'
           alt='Email me'
           target='_self'
-          className={css(styles.contactLink)}
+          className={styles.contactLink}
         >
           Email
         </SmartLink>
         <SmartLink
           href='https://www.linkedin.com/in/jacobhummel/'
           alt='LinkedIn profile'
-          className={css(styles.contactLink)}
+          className={styles.contactLink}
         >
           LinkedIn
-        </SmartLink>
-        <SmartLink
-          href='https://twitter.com/jakehummel/'
-          alt='Download resume'
-          className={css(styles.contactLink)}
-        >
-          Twitter
         </SmartLink>
       </div>
     </Header>
@@ -95,7 +94,10 @@ const IndexPage = () => (
       />
       <SkillList title='Workflow and Tools' skills={workflow} />
     </Section>
-    <Section title='Experience' link={{ href: Resume, text: 'View Resume' }}>
+    <Section
+      title='Experience'
+      link={{ href: 'jacobhummel-resume.pdf', text: 'View Resume' }}
+    >
       <ExperienceList title='Work' experiences={work} />
       <ExperienceList title='Education' experiences={education} />
     </Section>

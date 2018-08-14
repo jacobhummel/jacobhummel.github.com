@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 const SkillList = ({ title, skills }) => {
   return (
     <div>
-      <h4>{title}</h4>
+      <h3>{title}</h3>
       <div className={css(styles.list)}>
         {skills.map(skill => (
           <SkillItem key={skill.name} skill={skill} />

@@ -14,16 +14,16 @@ export const work = [
     icon: IconTarget,
     link: 'https://www.target.com',
     description:
-      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+      'Develop internal web portals and reusable components using React, TypeScript, SharePoint Framework, Sass, Azure Functions and PowerShell scripts.  Establish development standards on an evergreen cloud platform in SharePoint Online. Collaboration with front-end engineers, a UX designer, Accessibility team, product owner and stakeholders.'
   },
   {
     name: 'Boogie',
-    title: 'Co-founder',
+    title: 'Front-End Engineer (Mobile)',
     duration: 'Aug 2014 - Present',
     icon: IconBoogie,
     link: 'https://boogie.io',
     description:
-      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+      "Boogie is a side project I started with two friends in 2014. It's a mobile app for skydivers to log their skydives. The first version was a native Android app. It's now a cross platform React Native app for iOS and Android that's used by thousands of skydivers around the world."
   },
   {
     name: 'Visual Logic',
@@ -32,7 +32,7 @@ export const work = [
     icon: IconVlg,
     link: 'https://vlgux.com',
     description:
-      'Develop web and mobile apps in collaboration with UX Designers and clients. Apps vary from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicate development constraints to shape product designs.'
+      'Developed web and mobile apps in collaboration with UX Designers and clients. Apps varied from prototype to production level. Responsible for all aspects of development including frontend, backend, database, and server. Communicated development constraints to shape product designs.'
   },
   {
     name: 'Thomson Reuters',
@@ -61,7 +61,11 @@ export const education = [
     duration: 'Aug 2010 - May 2014',
     icon: IconIastate,
     link: 'https://iastate.edu/',
-    description:
-      'Full-Stack web developer using ASP.NET Web Forms. Rewrote two business critical apps for speed and usability.'
+    bullets: [
+      '3.46 GPA',
+      'HackISU co-founder',
+      'Computer Science Club Webmaster',
+      'Intro to Object Oriented Programming Teaching Assistant'
+    ]
   }
 ]

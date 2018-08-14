@@ -26,10 +26,7 @@ const styles = StyleSheet.create({
 
 const SkillItem = ({ skill }) => {
   return (
-    <SmartLink
-      className={css(styles.item)}
-      href={skill.link ? skill.link : '/'}
-    >
+    <SmartLink className={styles.item} href={skill.link ? skill.link : '/'}>
       <img
         src={skill.icon}
         className={css(styles.icon)}

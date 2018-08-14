@@ -18,13 +18,13 @@ import IconInvision from '../images/skills/invision.svg'
 import IconGrunt from 'devicon-2.2/icons/grunt/grunt-original.svg'
 import IconYarn from 'devicon-2.2/icons/yarn/yarn-original.svg'
 import IconNpm from 'devicon-2.2/icons/npm/npm-original-wordmark.svg'
-import IconJquery from 'devicon-2.2/icons/jquery/jquery-plain.svg'
 import IconGatsby from '../images/skills/gatsby.png'
 import IconJekyll from '../images/skills/jekyll.png'
 import IconRedux from '../images/skills/redux.svg'
 import IconBootstrap from 'devicon-2.2/icons/bootstrap/bootstrap-plain.svg'
 import IconMicrosoft from '../images/skills/microsoft.svg'
-import IconGoogleMaps from '../images/skills/google-maps.svg'
+import IconNodeJs from 'devicon-2.2/icons/nodejs/nodejs-plain.svg'
+import IconExpress from 'devicon-2.2/icons/express/express-original.svg'
 
 export const languages = [
   {
@@ -126,14 +126,14 @@ export const technologies = [
     link: 'https://www.mysql.com/'
   },
   {
-    name: 'jQuery',
-    icon: IconJquery,
-    link: 'https://jquery.com/'
+    name: 'Express',
+    icon: IconExpress,
+    link: 'https://expressjs.com/'
   },
   {
-    name: 'Google Maps',
-    icon: IconGoogleMaps,
-    link: 'https://cloud.google.com/maps-platform/'
+    name: 'NodeJS',
+    icon: IconNodeJs,
+    link: 'https://nodejs.org/en/'
   }
 ]
 

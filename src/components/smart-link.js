@@ -5,7 +5,7 @@ import { StyleSheet, css } from 'aphrodite'
 
 const styles = StyleSheet.create({
   link: {
-    color: '#007bff',
+    color: '#008bff',
     textDecoration: 'none',
     ':hover': {
       color: '#0056b3',
@@ -15,9 +15,13 @@ const styles = StyleSheet.create({
 })
 
 const SmartLink = ({ children, alt, href, className, target }) => {
+  const cssClassName = className
+    ? css(styles.link, className)
+    : css(styles.link)
+
   if (href.startsWith('/')) {
     return (
-      <Link to={href} className={`${css(styles.link)} ${className}`} alt={alt}>
+      <Link to={href} className={cssClassName} alt={alt}>
         {children}
       </Link>
     )
@@ -29,7 +33,7 @@ const SmartLink = ({ children, alt, href, className, target }) => {
       target={target}
       rel={target === '_blank' ? 'noopener noreferrer' : undefined}
       alt={alt}
-      className={`${css(styles.link)} ${className}`}
+      className={cssClassName}
     >
       {children}
     </a>
@@ -39,13 +43,13 @@ const SmartLink = ({ children, alt, href, className, target }) => {
 SmartLink.propTypes = {
   children: PropTypes.node.isRequired,
   href: PropTypes.string.isRequired,
-  className: PropTypes.string,
+  className: PropTypes.object,
   alt: PropTypes.string,
   target: PropTypes.string
 }
 
 SmartLink.defaultProps = {
-  className: '',
+  className: undefined,
   alt: undefined,
   target: '_blank'
 }
