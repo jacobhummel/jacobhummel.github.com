@@ -15,9 +15,7 @@ const styles = StyleSheet.create({
 })
 
 const SmartLink = ({ children, alt, href, className, target }) => {
-  const cssClassName = className
-    ? css(styles.link, className)
-    : css(styles.link)
+  const cssClassName = css(styles.link, className && className)
 
   if (href.startsWith('/')) {
     return (

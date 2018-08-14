@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jacob Hummel | Front-End Software Engineer'
+    title: 'Jacob Hummel | Front-End Software Engineer',
+    description: 'React and React Native front-end software engineer with a UX background'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
