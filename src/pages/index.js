@@ -12,7 +12,7 @@ import SkillList from '../components/skill-list'
 import ExperienceList from '../components/experience-list'
 
 import { languages, technologies, workflow } from '../data/skills'
-import { work, education } from '../data/experience'
+import { work, sideProjects, education } from '../data/experience'
 
 const styles = StyleSheet.create({
   targetLink: {
@@ -56,7 +56,7 @@ const IndexPage = () => (
     <Header headshot={headshot}>
       <div>
         I'm <strong>Jacob Hummel</strong>, a React/React Native front-end
-        software engineer with a UX background.
+        software engineer with a UX background. Located in Minneapolis, MN.
       </div>
       <div className={css(styles.contact)}>
         <SmartLink
@@ -89,20 +89,23 @@ const IndexPage = () => (
       link={{ href: 'jacobhummel-resume.pdf', text: 'View Resume' }}
     >
       <ExperienceList title='Work' experiences={work} />
+      <ExperienceList title='Side Project' experiences={sideProjects} />
       <ExperienceList title='Education' experiences={education} />
     </Section>
     <div className={css(styles.footer)}>
-      <SmartLink
-        href='https://github.com/jacobhummel/jacobhummel.github.com'
-        alt='GitHub repo'
-      >
+      <div>
         Built with{' '}
         <span role='img' aria-label='coffee'>
           ☕
         </span>{' '}
         and GatsbyJS
+      </div>
+      <SmartLink
+        href='https://github.com/jacobhummel/jacobhummel.github.com'
+        alt='GitHub repo'
+      >
+        See the code
       </SmartLink>
-      <SmartLink href='/'>Back to top</SmartLink>
     </div>
   </Layout>
 )

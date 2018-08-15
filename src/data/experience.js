@@ -14,16 +14,7 @@ export const work = [
     icon: IconTarget,
     link: 'https://www.target.com',
     description:
-      'Develop internal web portals and reusable components using React, TypeScript, SharePoint Framework, Sass, Azure Functions and PowerShell scripts.  Establish development standards on an evergreen cloud platform in SharePoint Online. Collaboration with front-end engineers, a UX designer, Accessibility team, product owner and stakeholders.'
-  },
-  {
-    name: 'Boogie',
-    title: 'Front-End Engineer (React Native)',
-    duration: 'Aug 2014 - Present',
-    icon: IconBoogie,
-    link: 'https://boogie.io',
-    description:
-      "Boogie is a side project I started with two friends in 2014. It's a mobile app built for skydivers to log skydives. The first version was a native Android app. It's now a cross platform React Native app for iOS and Android that's used by thousands of skydivers around the world."
+      'Develop internal web portals and reusable components using React, TypeScript, SharePoint Framework, Sass, Azure Functions, and PowerShell.  Establish development standards on an evergreen cloud platform in SharePoint Online. Collaboration with front-end engineers, a UX designer, Accessibility team, product owner, and stakeholders.'
   },
   {
     name: 'Visual Logic',
@@ -54,18 +45,30 @@ export const work = [
   }
 ]
 
+export const sideProjects = [
+  {
+    name: 'Boogie',
+    title: 'Co-founder / Mobile Developer',
+    duration: 'Aug 2014 - Present',
+    icon: IconBoogie,
+    link: 'https://boogie.io',
+    description:
+      "Develop a React Native skydiving logbook app used by thousands of skydivers around the world. App allows users to record their skydives with their phone's altimeter or manually. Collaborate remotely with developers and a designer. Launched the first version in native Android in 2014. Re-wrote for iOS and Android using React Native in 2017."
+  }
+]
+
 export const education = [
   {
     name: 'Iowa State University',
-    title: 'Software Engineering',
-    duration: 'Aug 2010 - May 2014',
+    title: 'Bachelor of Science in Software Engineering',
+    duration: 'Fall 2010 - Spring 2014',
     icon: IconIastate,
     link: 'https://iastate.edu/',
     bullets: [
       '3.46 GPA',
-      'HackISU co-founder',
-      'Computer Science Club Webmaster',
-      'Intro to Object Oriented Programming Teaching Assistant'
+      'Co-founder of HackISU',
+      'Webmaster for Computer Science Club',
+      'Teaching Assistant for Intro to Object Oriented Programming'
     ]
   }
 ]

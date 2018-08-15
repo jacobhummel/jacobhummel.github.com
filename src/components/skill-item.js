@@ -20,7 +20,10 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 13,
     textAlign: 'center',
-    color: globals.color.text
+    color: globals.color.text,
+    ':hover': {
+      textDecorationColor: globals.color.text
+    }
   }
 })
 

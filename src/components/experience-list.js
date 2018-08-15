@@ -6,13 +6,7 @@ import ExperienceItem from '../components/experience-item'
 
 const styles = StyleSheet.create({
   list: {
-    display: 'grid',
-    gridTemplateColumns: '1fr',
-    gridGap: 50,
-    marginBottom: 50,
-    '@media screen and (min-width: 40em)': {
-      gridTemplateColumns: '1fr 1fr'
-    }
+    marginBottom: 50
   }
 })
 

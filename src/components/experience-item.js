@@ -8,9 +8,11 @@ const styles = StyleSheet.create({
   item: {
     display: 'flex',
     flexDirection: 'row',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    marginBottom: 45
   },
   icon: {
+    marginTop: 5,
     width: 50,
     height: 50,
     marginBottom: 5,
@@ -34,18 +36,17 @@ const styles = StyleSheet.create({
     marginBottom: 20
   },
   duration: {
+    fontWeight: 'bold',
     textTransform: 'uppercase',
     fontSize: 12,
     textAlign: 'right'
   },
   description: {
-    fontSize: 14,
-    '@media screen and (min-width: 40em)': {
-      textAlign: 'justify'
-    }
+    fontSize: 14
   },
   bullets: {
-    fontSize: 14
+    fontSize: 14,
+    marginBottom: 0
   },
   bullet: {
     marginBottom: 2
