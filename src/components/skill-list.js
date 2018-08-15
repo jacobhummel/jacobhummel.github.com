@@ -7,11 +7,11 @@ import SkillItem from '../components/skill-item'
 const styles = StyleSheet.create({
   list: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridTemplateColumns: '1fr 1fr 1fr',
     gridGap: 30,
     marginBottom: 50,
     '@media screen and (min-width: 40em)': {
-      gridTemplateColumns: 'repeat(7, 1fr)'
+      gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr 1fr'
     }
   }
 })

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     gridGap: 50,
     marginBottom: 50,
     '@media screen and (min-width: 40em)': {
-      gridTemplateColumns: 'repeat(2, 1fr)'
+      gridTemplateColumns: '1fr 1fr'
     }
   }
 })

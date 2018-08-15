@@ -55,23 +55,8 @@ const IndexPage = () => (
   <Layout>
     <Header headshot={headshot}>
       <div>
-        I'm <strong>Jacob Hummel</strong>, a front-end software engineer at{' '}
-        <SmartLink
-          href='https://www.target.com/'
-          alt='Target website'
-          className={styles.targetLink}
-        >
-          Target
-        </SmartLink>{' '}
-        and co-founder at{' '}
-        <SmartLink
-          href='https://boogie.io'
-          alt='Boogie website'
-          className={styles.boogieLink}
-        >
-          Boogie
-        </SmartLink>
-        . I live in Minneapolis, Minnesota.
+        I'm <strong>Jacob Hummel</strong>, a React/React Native front-end
+        software engineer with a UX background.
       </div>
       <div className={css(styles.contact)}>
         <SmartLink
@@ -111,7 +96,11 @@ const IndexPage = () => (
         href='https://github.com/jacobhummel/jacobhummel.github.com'
         alt='GitHub repo'
       >
-        Built with ☕ and GatsbyJS
+        Built with{' '}
+        <span role='img' aria-label='coffee'>
+          ☕
+        </span>{' '}
+        and GatsbyJS
       </SmartLink>
       <SmartLink href='/'>Back to top</SmartLink>
     </div>

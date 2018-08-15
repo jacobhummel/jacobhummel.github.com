@@ -32,7 +32,10 @@ const Layout = ({ children, fullWidth, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: data.site.siteMetadata.description }
+            {
+              name: 'description',
+              content: data.site.siteMetadata.description
+            }
           ]}
         >
           <html lang='en' />
