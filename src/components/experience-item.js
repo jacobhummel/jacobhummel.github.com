@@ -31,22 +31,21 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   title: {
-    flex: 1,
-    fontSize: 14,
+    fontSize: 15,
     marginBottom: 20
   },
   duration: {
     fontWeight: 'bold',
     textTransform: 'uppercase',
-    fontSize: 12,
+    fontSize: 14,
     textAlign: 'right'
   },
   description: {
-    fontSize: 14
+    fontSize: 15
   },
   bullets: {
-    fontSize: 14,
-    marginBottom: 0
+    marginBottom: 0,
+    fontSize: 15
   },
   bullet: {
     marginBottom: 2
