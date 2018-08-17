@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
     textDecoration: 'none',
     '@media screen and (min-width: 40em)': {
-      minWidth: 'calc(100% / 7)'
+      minWidth: 'calc(100% / 7 - 1px)'
     }
   },
   icon: {
