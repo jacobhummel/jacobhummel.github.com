@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginBottom: 30,
+    marginBottom: 40,
     textDecoration: 'none',
     '@media screen and (min-width: 40em)': {
       minWidth: 'calc(100% / 7 - 1px)'
