@@ -28,7 +28,7 @@ import IconExpress from 'devicon-2.2/icons/express/express-original.svg'
 
 export const languages = [
   {
-    name: 'JavaScript (ES2015)',
+    name: 'JavaScript',
     icon: IconJavascript,
     link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
   },

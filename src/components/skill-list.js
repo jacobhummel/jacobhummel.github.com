@@ -6,13 +6,12 @@ import SkillItem from '../components/skill-item'
 
 const styles = StyleSheet.create({
   list: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr 1fr',
-    gridGap: 30,
-    marginBottom: 50,
-    '@media screen and (min-width: 40em)': {
-      gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr 1fr'
-    }
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    margin: '30px 0'
   }
 })
 

@@ -7,10 +7,16 @@ import SmartLink from './smart-link'
 
 const styles = StyleSheet.create({
   item: {
+    flex: 1,
+    minWidth: '33%',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    textDecoration: 'none'
+    marginBottom: 30,
+    textDecoration: 'none',
+    '@media screen and (min-width: 40em)': {
+      minWidth: 'calc(100% / 7)'
+    }
   },
   icon: {
     width: 50,
